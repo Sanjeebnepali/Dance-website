@@ -1,0 +1,189 @@
+body {
+
+    background: url(roberto-nickson-vZ1JAXUO3-0-unsplash.jpg) no-repeat center /cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    border: 2px solid rgb(79, 91, 93);
+    height: 44px;
+    width: 100%;
+    align-items: center;
+    /* background-color: rgb(60, 28, 28); */
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 2px 1px black;
+}
+
+.container #main1 a:hover {
+    color: tomato;
+    text-decoration: blanchedalmond;
+
+}
+
+.container #main1 {
+    margin: 2px 31px;
+    padding: 12px 10px;
+}
+
+#main2 {
+    margin: 2px 31px;
+    padding: 12px 10px;
+
+}
+
+.container #main3 {
+    margin: 2px 31px;
+    padding: 12px 10px;
+
+}
+
+.container #main4 {
+    margin: 2px 31px;
+    padding: 12px 10px;
+
+}
+
+.main {
+    color: rgb(212, 137, 17);
+    text-shadow: 1px 1px red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+        Verdana, sans-serif;
+    position: relative;
+    top: -5px;
+}
+
+.container #main2 a:hover {
+    color: rgb(229, 218, 10);
+    text-decoration: blanchedalmond;
+}
+
+.container #main3 a:hover {
+    color: rgb(17, 80, 206);
+    text-decoration: rgb(212, 195, 170);
+}
+
+.container #main4 a:hover {
+    color: rgb(13, 118, 64);
+    text-decoration: blanchedalmond;
+}
+
+.container input {
+    position: relative;
+    left: 600px;
+    border-radius: 20px;
+    width: 208px;
+    height: 26px;
+    background-color: antiquewhite;
+    text-emphasis-color: red;
+
+
+}
+
+.manue {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 70vh;
+    border: 2px solid rgb(97, 78, 78);
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: baseline;
+    width: 400px;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+    height: 300px;
+}
+
+input[type='email'] {
+    width: 300px;
+    height: 30px;
+    color: red;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin: 7px;
+    background-color: transparent;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+
+
+}
+
+input[type='password'] {
+    width: 300px;
+    height: 30px;
+    color: red;
+    border: 1px solid rgb(41, 33, 160);
+    border-radius: 20px;
+    margin: 7px;
+    background-color: transparent;
+}
+
+.remand {
+    color: orange;
+    font-weight: bold;
+}
+i{
+    margin: 3px;
+}
+.forget{
+    font-size: 15px;
+    margin: 6px;
+
+}
+.forget a{
+    text-decoration: none;
+    color: orangered;
+
+}
+.forget a:hover{
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 1px solid;
+    overflow-y:none;
+    overflow-y: none;
+    overflow-wrap: break-word;
+}
+p{
+    color: white;
+}
+input[type='submit']{
+    color:white;
+    border: none;
+    border-radius: 19px;
+    background-color: black;
+    width: 200px;
+    padding: 7px;
+    position: relative;
+    left: 78px;
+    top: 14px;
+    /* background-color: transparent; */
+    
+
+}
+input[type='submit']:hover{
+    color: blue;
+    background:red ;
+}
+#time{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-shadow: 2px  green;
+    width: 260px;
+    margin-left: 109px;
+}
+#search{
+    padding: 12px;
+}
